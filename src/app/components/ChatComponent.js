@@ -9,8 +9,8 @@ import MessageParser from '../MessageParser'
 const ChatComponent = () => {
   return (
     <div className='bg-slate-600  flex flex-col  justify-center items-center h-fit py-6'>
-      <div className='bg-white text-lg text-black px-5 py-1 mb-2 rounded-md lg:w-[70%] w-[85%]'><h1>
-      TripNavigator is your smart travel buddy that helps you find the best destinations, plan trips, and get weather updates. It even translates phrases to make your travels easier and more enjoyable!</h1></div>
+      <div className='bg-white lg:text-xl  text-black px-5 py-1 mb-2 rounded-md lg:w-[55%] w-[90%]'><h1>
+      TripNavigator is an AI-powered chatbot that helps with personalized travel recommendations, Trips planning, and essential travel tips!</h1></div>
       <Chatbot
       config={config}
       actionProvider={ActionProvider}
